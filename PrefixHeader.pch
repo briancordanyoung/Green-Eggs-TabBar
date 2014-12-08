@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  Green Eggs Tabbar
+//
+//  Created by Brian Cordan Young on 12/8/14.
+//  Copyright (c) 2014 Brian Young. All rights reserved.
+//
+
+#ifndef Green_Eggs_Tabbar_PrefixHeader_pch
+#define Green_Eggs_Tabbar_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Short hand to get the ETTabBarViewController
+#define TAB_BAR_VC \
+UIWindow *appWindow = [[UIApplication sharedApplication] keyWindow ]; \
+ETTabBarViewController *tabBarVC = (ETTabBarViewController *) appWindow.rootViewController;
+
+// Use DEFINE_SHARED_INSTANCE_USING_BLOCK to create a singleton in ia new class.
+//
+//+ (id)sharedInstance
+//{
+//    DEFINE_SHARED_INSTANCE_USING_BLOCK(^{
+//
+//        return // Code to create instance ;
+//    });
+//}
+#define DEFINE_SHARED_INSTANCE_USING_BLOCK(block) \
+static dispatch_once_t pred = 0; \
+__strong static id _sharedObject = nil; \
+dispatch_once(&pred, ^{ \
+_sharedObject = block(); \
+}); \
+return _sharedObject; \
+
+
+
+#endif
