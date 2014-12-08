@@ -182,6 +182,12 @@
 		D39F766E1A3629B500B9F657 /* ETSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F766C1A3629B500B9F657 /* ETSettingsViewController.m */; };
 		D39F76711A3629C200B9F657 /* ETToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F76701A3629C200B9F657 /* ETToolsViewController.m */; };
 		D39F76721A3629C200B9F657 /* ETToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F76701A3629C200B9F657 /* ETToolsViewController.m */; };
+		D39F76751A36561E00B9F657 /* GreenEggIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39F76731A36561E00B9F657 /* GreenEggIcon.png */; };
+		D39F76761A36561E00B9F657 /* GreenEggIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39F76731A36561E00B9F657 /* GreenEggIcon.png */; };
+		D39F76771A36561E00B9F657 /* GreenEggIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39F76741A36561E00B9F657 /* GreenEggIcon@2x.png */; };
+		D39F76781A36561E00B9F657 /* GreenEggIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39F76741A36561E00B9F657 /* GreenEggIcon@2x.png */; };
+		D39F767B1A36617E00B9F657 /* ETGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F767A1A36617E00B9F657 /* ETGraphViewController.m */; };
+		D39F767C1A36617E00B9F657 /* ETGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F767A1A36617E00B9F657 /* ETGraphViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,6 +314,10 @@
 		D39F766C1A3629B500B9F657 /* ETSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETSettingsViewController.m; sourceTree = "<group>"; };
 		D39F766F1A3629C200B9F657 /* ETToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETToolsViewController.h; sourceTree = "<group>"; };
 		D39F76701A3629C200B9F657 /* ETToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETToolsViewController.m; sourceTree = "<group>"; };
+		D39F76731A36561E00B9F657 /* GreenEggIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenEggIcon.png; sourceTree = "<group>"; };
+		D39F76741A36561E00B9F657 /* GreenEggIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreenEggIcon@2x.png"; sourceTree = "<group>"; };
+		D39F76791A36617E00B9F657 /* ETGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETGraphViewController.h; sourceTree = "<group>"; };
+		D39F767A1A36617E00B9F657 /* ETGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETGraphViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +359,8 @@
 		D37B596E1A3617FD006CB1C6 /* Green Eggs Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				D39F76731A36561E00B9F657 /* GreenEggIcon.png */,
+				D39F76741A36561E00B9F657 /* GreenEggIcon@2x.png */,
 				D37B59731A3617FD006CB1C6 /* AppDelegate.h */,
 				D37B59741A3617FD006CB1C6 /* AppDelegate.m */,
 				D37B597C1A3617FD006CB1C6 /* Images.xcassets */,
@@ -499,6 +511,8 @@
 				D39F766C1A3629B500B9F657 /* ETSettingsViewController.m */,
 				D39F766F1A3629C200B9F657 /* ETToolsViewController.h */,
 				D39F76701A3629C200B9F657 /* ETToolsViewController.m */,
+				D39F76791A36617E00B9F657 /* ETGraphViewController.h */,
+				D39F767A1A36617E00B9F657 /* ETGraphViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -604,6 +618,7 @@
 				D39F75D01A36277200B9F657 /* Graph@2x.png in Resources */,
 				D39F75C81A36277200B9F657 /* Calendar@2x.png in Resources */,
 				D39F75C21A36277200B9F657 /* addButtonHighlighted.png in Resources */,
+				D39F76751A36561E00B9F657 /* GreenEggIcon.png in Resources */,
 				D39F76361A36277200B9F657 /* tabbarItem8Nameplate.png in Resources */,
 				D39F76221A36277200B9F657 /* tabbarItem6Selected.png in Resources */,
 				D39F76001A36277200B9F657 /* tabbarItem3Selected@2x.png in Resources */,
@@ -612,6 +627,7 @@
 				D39F760C1A36277200B9F657 /* tabbarItem4Selected@2x.png in Resources */,
 				D39F76161A36277200B9F657 /* tabbarItem5Selected.png in Resources */,
 				D39F76061A36277200B9F657 /* tabbarItem4Nameplate.png in Resources */,
+				D39F76771A36561E00B9F657 /* GreenEggIcon@2x.png in Resources */,
 				D39F764A1A36277200B9F657 /* tabbarItem9Touched.png in Resources */,
 				D39F75EE1A36277200B9F657 /* tabbarItem2Nameplate.png in Resources */,
 				D39F760E1A36277200B9F657 /* tabbarItem4Touched.png in Resources */,
@@ -704,6 +720,7 @@
 				D39F75E91A36277200B9F657 /* tabbarItem1Selected@2x.png in Resources */,
 				D39F76171A36277200B9F657 /* tabbarItem5Selected.png in Resources */,
 				D39F763B1A36277200B9F657 /* tabbarItem8Selected.png in Resources */,
+				D39F76781A36561E00B9F657 /* GreenEggIcon@2x.png in Resources */,
 				D39F762D1A36277200B9F657 /* tabbarItem7Nameplate@2x.png in Resources */,
 				D39F75E11A36277200B9F657 /* Settings@2x.png in Resources */,
 				D39F75F51A36277200B9F657 /* tabbarItem2Selected@2x.png in Resources */,
@@ -738,6 +755,7 @@
 				D39F760B1A36277200B9F657 /* tabbarItem4Selected.png in Resources */,
 				D39F761F1A36277200B9F657 /* tabbarItem6Nameplate.png in Resources */,
 				D39F75BF1A36277200B9F657 /* addButton.png in Resources */,
+				D39F76761A36561E00B9F657 /* GreenEggIcon.png in Resources */,
 				D39F75DD1A36277200B9F657 /* People@2x.png in Resources */,
 				D39F76491A36277200B9F657 /* tabbarItem9Selected@2x.png in Resources */,
 				D39F76291A36277200B9F657 /* tabbarItem6Touched@2x.png in Resources */,
@@ -756,6 +774,7 @@
 				D39F756D1A36244E00B9F657 /* ETTabBarView.m in Sources */,
 				D37B59751A3617FD006CB1C6 /* AppDelegate.m in Sources */,
 				D37B59721A3617FD006CB1C6 /* main.m in Sources */,
+				D39F767B1A36617E00B9F657 /* ETGraphViewController.m in Sources */,
 				D39F756C1A36244E00B9F657 /* ETTabBarContainerController.m in Sources */,
 				D39F76651A36298F00B9F657 /* ETCalendarsViewController.m in Sources */,
 				D39F75701A36244E00B9F657 /* ETEmptySegue.m in Sources */,
@@ -780,6 +799,7 @@
 				D39F76551A3627F000B9F657 /* ETAppearance.m in Sources */,
 				D37B598C1A3617FD006CB1C6 /* Green_Eggs_TabbarTests.m in Sources */,
 				D39F765A1A36295200B9F657 /* ETPeopleViewController.m in Sources */,
+				D39F767C1A36617E00B9F657 /* ETGraphViewController.m in Sources */,
 				D39F766E1A3629B500B9F657 /* ETSettingsViewController.m in Sources */,
 				D39F765E1A36296500B9F657 /* ETEggViewController.m in Sources */,
 				D39F76721A3629C200B9F657 /* ETToolsViewController.m in Sources */,

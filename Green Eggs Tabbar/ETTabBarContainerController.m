@@ -274,7 +274,7 @@
     
     NSArray *sortedList = [aViewControllerNames sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
-    NSLog(@"Current Tab ViewControllers (%d): %@", self.childViewControllers.count,
+    NSLog(@"Current Tab ViewControllers (%lu): %@", (unsigned long)self.childViewControllers.count,
               [[sortedList valueForKey:@"description"] componentsJoinedByString:@", "]);
 }
 

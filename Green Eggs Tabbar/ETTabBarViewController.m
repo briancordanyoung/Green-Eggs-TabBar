@@ -278,13 +278,13 @@ const CGFloat secondsToWaitForTabReset = .75;
 
     for ( ETTabBarItem *anItem in _appTabBarItems ) {
         UIImage *aTouchedImage = [UIImage imageNamed:
-               [NSString stringWithFormat:@"tabbarItem%uTouched.png",  (index + 1)]];
+               [NSString stringWithFormat:@"tabbarItem%luTouched.png",  (index + 1)]];
         
         UIImage *aSelectedImage = [UIImage imageNamed:
-               [NSString stringWithFormat:@"tabbarItem%uSelected.png",  (index + 1)]];
+               [NSString stringWithFormat:@"tabbarItem%luSelected.png",  (index + 1)]];
         
         UIImage *aNamePlateImage = [UIImage imageNamed:
-                [NSString stringWithFormat:@"tabbarItem%uNameplate.png",  (index + 1)]];
+                [NSString stringWithFormat:@"tabbarItem%luNameplate.png",  (index + 1)]];
         
         UIImage *anIcon = [UIImage imageNamed: [anItem.storyBoardId capitalizedString]];
         

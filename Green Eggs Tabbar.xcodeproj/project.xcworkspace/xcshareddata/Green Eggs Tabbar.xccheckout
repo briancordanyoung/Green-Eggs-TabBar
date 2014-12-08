@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3DCEC655-849D-4E23-8374-458C31FF9743</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Green Eggs Tabbar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8AC714E073E33256F9C64CC07DC7F3C687CD66B5</key>
+		<string>https://github.com/briancordanyoung/Green-Eggs-TabBar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Green Eggs Tabbar.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8AC714E073E33256F9C64CC07DC7F3C687CD66B5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/briancordanyoung/Green-Eggs-TabBar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8AC714E073E33256F9C64CC07DC7F3C687CD66B5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8AC714E073E33256F9C64CC07DC7F3C687CD66B5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Green%20Eggs%20Tabbar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

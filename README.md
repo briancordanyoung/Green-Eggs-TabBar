@@ -12,6 +12,8 @@ This repository is the custom Tab Bar I wrote for **'Green Eggs...'**.  It aims 
 * Worked well in the case where more advanced features were avalible via 'in app purchase', and could serve to advertise those features without being obnoxious. (The unlocked features could be discoved without being in the way)
 * One of the tabs must always be visible because no matter where the user was in the app, it was important to be able to tap to add more records. The were more than 10 types items that could be tracked in the app, and all of them were a tap away from being added'
 
+![](http://)
+
 This **'Green Eggs...' TabBar** attempts to solve this by creating a Tab Bar that presents 5 tabs and can be scrolled to reveal 2 more on each side.  It's advantages are:
 
 * First appears only as a 5 position TabBar, easily recognizable to novice users ** 
@@ -33,7 +35,7 @@ And finally, after the iPhone 5, it seemed a future larger screen iPhone may com
 Not a prepackageed control ready for use
 --------------------------------
 
-Currently, this is posted as an example and prototype of my UI solution.  I have not packaged up the classes in to a library or module that could be easily reused.  There is a lot of refactoring I'd like to do to better follow the UITabBar API.  Feel free to take this concept and code and expand on it.
+Currently, this is posted as an example and prototype of my UI solution.  I have not packaged up the classes in to a library or module that could be easily reused.  There is a lot of refactoring I'd like to do to better follow the UITabBar API.  Feel free to take this concept and code and expand on it.  If I ever returned to this project I would also use auto layout throughout the control.
 
 Notes about the graphic design
 --------------------------------
