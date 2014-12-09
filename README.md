@@ -20,7 +20,7 @@ This **'Green Eggs...' TabBar** attempts to solve this by creating a Tab Bar tha
 * Allows 9 different tabs.
 * The other tabs may be accidentally discovered in 2 ways: 
 	* Swiping across the tab bar, releaving either side
-	* on screen rotation, the tabbar can 'bounce' when resting in to the new orientation, momentarily showing that there is more to be seen on either side.
+	* At the end of a screen rotation, the tabbar can 'bounce' when resting in to the new orientation, momentarily showing that there is more to be seen on either side.
 * For the advance users, any of the 9 tabs are just as easy to get to and in context on the overall UI, not hidden in a basement and forgotten.
 <!-- * In keeping with the kitschiness of the app I hand a third discovery method planned. When there is very little data to be displayed, a animated illustration of a chicken would be visible behind/undernearth many on the table views in various view controllers on some tabs. The animated chicken would at times when the iphone ideal, peck at the egg, making the whole tabbar slightly shift and bounce back in to place. -->
 
@@ -32,7 +32,7 @@ Other UI considerations were to always mantain feedback to the user so it was cl
 
 And finally, after the iPhone 5, it seemed a future larger screen iPhone may come and this tabbar would be able to grow with the added real-estate.
 
-Not a prepackageed control ready for use
+Not a pre-packaged control
 --------------------------------
 
 Currently, this is posted as an example and prototype of my UI solution.  I have not packaged up the classes in to a library or module that could be easily reused.  There is a lot of refactoring I'd like to do to better follow the UITabBar API.  Feel free to take this concept and code and expand on it.  If I ever returned to this project I would also use auto layout throughout the control.
