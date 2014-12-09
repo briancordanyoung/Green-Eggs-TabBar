@@ -12,7 +12,7 @@ This repository is the custom Tab Bar I wrote for **'Green Eggs...'**.  It aims 
 * Worked well in the case where more advanced features were avalible via 'in app purchase', and could serve to advertise those features without being obnoxious. (The unlocked features could be discoved without being in the way)
 * One of the tabs must always be visible because no matter where the user was in the app, it was important to be able to tap to add more records. The were more than 10 types items that could be tracked in the app, and all of them were a tap away from being added'
 
-![](http://)
+![screenshot](https://github.com/briancordanyoung/Green-Eggs-TabBar/blob/master/Green-Eggs-TabBar.gif)
 
 This **'Green Eggs...' TabBar** attempts to solve this by creating a Tab Bar that presents 5 tabs and can be scrolled to reveal 2 more on each side.  It's advantages are:
 
