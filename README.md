@@ -3,9 +3,9 @@
 
 In the spring on 2013 while learing iOS development and the Cocoa Touch frameworks I began an app I code named 'Green Eggs...'.  The app would be for tracking backyard chickens through the eggs they laid. It served as my playground to learn how to write an iOS app.
 
-This repository is the custom Tab Bar I wrote for **'Green Eggs...'**.  It aims to solve the problems that many app developers turned to the 'hamburger menu' to solve, how to present to the user with more views (UIViewControllers) in their app than can be on a 5 tab UITabBar (iPhone 4s and 5 era).  The Hamburger and basement has since been branded as a place for features to go and die, but at the time it wasn't a good solution for me because the app I wanted to make needed to:
+This repository is the custom Tab Bar I wrote for **'Green Eggs...'**.  It aims to solve the problems that many app developers turned to the 'hamburger menu' to solve. That problem was how to present to the user with more views (UIViewControllers) in their app than can fit on a 5 tab UITabBar (iPhone 4s and 5 era).  The standard TabBar offered the solution of the 5th Tab pushing a TableView with the extra options on it.   This resulted in hiding these options from most users and proved not to be discoverable. 3rd Party developers created the ''The Hamburger and basement' to solve this same problem.  That has since been branded as a place for features to go and die.  I decide I needed an new solution, and my goals were:
 
-* Use simple standard UI controls that even the most novice iPhone users would recognize
+* Use simple standard UI concepts that even the most novice iPhone users would recognize
 * Grow with the user if they chose to use the more advance features.
 * Make sure that the more advanced features were just as easy to get to as the novice features
 * Was discoverable
@@ -14,9 +14,9 @@ This repository is the custom Tab Bar I wrote for **'Green Eggs...'**.  It aims 
 
 ![screenshot](https://raw.githubusercontent.com/briancordanyoung/Green-Eggs-TabBar/master/Green-Eggs-TabBar.gif)
 
-This **'Green Eggs...' TabBar** attempts to solve this by creating a Tab Bar that presents 5 tabs and can be scrolled to reveal 2 more on each side.  It's advantages are:
+This **'Green Eggs...' TabBar** attempts to solve this by creating a Tab Bar that presents 5 tabs and can be scrolled to reveal 2 more on each side.  The advantages are:
 
-* First appears only as a 5 position TabBar, easily recognizable to novice users ** 
+* At first is only appears to be a 5 position TabBar, easily recognizable to novice users ** 
 * Allows 9 different tabs.
 * The other tabs may be accidentally discovered in 2 ways: 
 	* Swiping across the tab bar, releaving either side
@@ -26,7 +26,7 @@ This **'Green Eggs...' TabBar** attempts to solve this by creating a Tab Bar tha
 
 * The center tab would always be in view, allowing users to add new records at all times.  I also chose to hide the TabBar when rotating to landscape.  But, the center 'Add' tab remained in view.
 
-One feature I added to the TabBar was to automaticlly center itself after a short delay.  After an accidental swipe, providing that the user did not touch one of the far tabs, the TabBar would return to the center and be a novice user expected.
+One feature I added to the TabBar was to automaticlly center itself after a short delay.  After an accidental swipe, providing that the user did not touch one of the far tabs, the TabBar would return to the center and be in a position that a novice user expected.
 
 Other UI considerations were to always mantain feedback to the user so it was clear the iPhone recognized their touch.  I planned for some View Controllers to be heavy to load, *(this was developed on an iPhone4)* so the tab animates up like an old time cash register number, only decending after the ViewController is loaded and displaying. ***
 
@@ -44,4 +44,4 @@ This TabBar was not inteneded to be a drop in replacement for UITabBar, but a sp
 
 ** I don't say it is 'standard' because I made the UI customized to this app's painterly and folky graphic design
 
-*** The graphic design was made to be folky, keeping in theme of many backyard chicken and farming paraphernalia.
+*** The graphic design was made to be folksy, keeping in theme of many backyard chicken and farming paraphernalia.
