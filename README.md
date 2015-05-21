@@ -9,8 +9,8 @@ This repository is the custom Tab Bar I wrote for **'Green Eggs...'**.  It aims 
 * Grow with the user if they chose to use the more advance features.
 * Make sure that the more advanced features were just as easy to get to as the novice features
 * Was discoverable
-* Worked well in the case where more advanced features were avalible via 'in app purchase', and could serve to advertise those features without being obnoxious. (The unlocked features could be discoved without being in the way)
-* One of the tabs must always be visible because no matter where the user was in the app, it was important to be able to tap to add more records. The were more than 10 types items that could be tracked in the app, and all of them were a tap away from being added'
+* Worked well in the case where more advanced features were avalible via 'in app purchase', and could serve to advertise those features without being obnoxious. (The locked/unpurchased features could be discovered without being in the way)
+* One of the tabs must always be visible because no matter where the user was in the app, it was important to be able to tap to add more records. There were more than 10 types items that could be tracked in the app, and all of them were a tap away from being added'
 
 ![screenshot](https://raw.githubusercontent.com/briancordanyoung/Green-Eggs-TabBar/master/Green-Eggs-TabBar.gif)
 
